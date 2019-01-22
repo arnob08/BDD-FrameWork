@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="8" time="34.564881">
+<testcase classname="Amazon Book" name="Award Winner" time="4.800271">
+<system-out><![CDATA[Given User is already on Home Page..........................................passed
+When user goes to Book page.................................................passed
+Then get text from Award Winner and assert..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Amazon Book" name="Bargain Books" time="4.703123">
+<system-out><![CDATA[Given User is already on Home Page..........................................passed
+When user goes to Book page.................................................passed
+Then get text from Bargain Books and Assert.................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Amazon Book" name="Fall Reading" time="4.182084">
+<system-out><![CDATA[Given User is already on Home Page..........................................passed
+When user goes to Book page.................................................passed
+Then get Text from Fall Reading and assert..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Amazon Book" name="Book Of the Month" time="3.94242">
+<system-out><![CDATA[Given User is already on Home Page..........................................passed
+When user goes to Book page.................................................passed
+Then get text from Book Of the month and Assert.............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Amazon Book" name="Book Of the Year" time="3.947072">
+<system-out><![CDATA[Given User is already on Home Page..........................................passed
+When user goes to Book page.................................................passed
+Then get text from Book of the Year and Year................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Amazon Book" name="Celebrity Pick" time="4.777795">
+<system-out><![CDATA[Given User is already on Home Page..........................................passed
+When user goes to Book page.................................................passed
+Then get text from Celebrity Pick and Assert................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Amazon Book" name="Books in Spanish" time="4.086207">
+<system-out><![CDATA[Given User is already on Home Page..........................................passed
+When user goes to Book page.................................................passed
+Then get text from Books in Spanish and Assert..............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Amazon Book" name="Children's Book" time="4.125909">
+<system-out><![CDATA[Given User is already on Home Page..........................................passed
+When user goes to Book page.................................................passed
+Then get text from Children's Book..........................................passed
+]]></system-out>
+</testcase>
+</testsuite>
