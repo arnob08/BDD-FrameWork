@@ -1,50 +1,31 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="8" time="34.564881">
-<testcase classname="Amazon Book" name="Award Winner" time="4.800271">
-<system-out><![CDATA[Given User is already on Home Page..........................................passed
-When user goes to Book page.................................................passed
-Then get text from Award Winner and assert..................................passed
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="18.057265">
+<testcase classname="A description" name="Men's Hat" time="6.313865">
+<system-out><![CDATA[Given User is alreedy in home page..........................................passed
+When get text from Men's hat................................................passed
+Then Assert Text from Men's Hat.............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Amazon Book" name="Bargain Books" time="4.703123">
-<system-out><![CDATA[Given User is already on Home Page..........................................passed
-When user goes to Book page.................................................passed
-Then get text from Bargain Books and Assert.................................passed
+<testcase classname="A description" name="Men's Beany" time="5.660916">
+<system-out><![CDATA[Given User is alreedy in home page..........................................passed
+When get text from Men's Hat................................................passed
+Then Assert Text from Men's Beany...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Amazon Book" name="Fall Reading" time="4.182084">
-<system-out><![CDATA[Given User is already on Home Page..........................................passed
-When user goes to Book page.................................................passed
-Then get Text from Fall Reading and assert..................................passed
-]]></system-out>
-</testcase>
-<testcase classname="Amazon Book" name="Book Of the Month" time="3.94242">
-<system-out><![CDATA[Given User is already on Home Page..........................................passed
-When user goes to Book page.................................................passed
-Then get text from Book Of the month and Assert.............................passed
-]]></system-out>
-</testcase>
-<testcase classname="Amazon Book" name="Book Of the Year" time="3.947072">
-<system-out><![CDATA[Given User is already on Home Page..........................................passed
-When user goes to Book page.................................................passed
-Then get text from Book of the Year and Year................................passed
-]]></system-out>
-</testcase>
-<testcase classname="Amazon Book" name="Celebrity Pick" time="4.777795">
-<system-out><![CDATA[Given User is already on Home Page..........................................passed
-When user goes to Book page.................................................passed
-Then get text from Celebrity Pick and Assert................................passed
-]]></system-out>
-</testcase>
-<testcase classname="Amazon Book" name="Books in Spanish" time="4.086207">
-<system-out><![CDATA[Given User is already on Home Page..........................................passed
-When user goes to Book page.................................................passed
-Then get text from Books in Spanish and Assert..............................passed
-]]></system-out>
-</testcase>
-<testcase classname="Amazon Book" name="Children's Book" time="4.125909">
-<system-out><![CDATA[Given User is already on Home Page..........................................passed
-When user goes to Book page.................................................passed
-Then get text from Children's Book..........................................passed
-]]></system-out>
+<testcase classname="A description" name="Scarf" time="6.082484">
+<failure message="java.lang.AssertionError: expected [Surf, Skate &amp; Street Hats &amp; Cap] but found [Surf, Skate &amp; Street Hats &amp; Caps]&#10;&#9;at org.testng.Assert.fail(Assert.java:96)&#10;&#9;at org.testng.Assert.failNotEquals(Assert.java:776)&#10;&#9;at org.testng.Assert.assertEqualsImpl(Assert.java:137)&#10;&#9;at org.testng.Assert.assertEquals(Assert.java:118)&#10;&#9;at org.testng.Assert.assertEquals(Assert.java:453)&#10;&#9;at org.testng.Assert.assertEquals(Assert.java:463)&#10;&#9;at stepDefinitions.AmazonCapPageSteps.assert_Text_From_Scarf(AmazonCapPageSteps.java:62)&#10;&#9;at ✽.Then Assert Text From Scarf(AmazonCapPage.feature:20)&#10;"><![CDATA[Given User is alreedy in home page..........................................passed
+When ge text from Scarf.....................................................passed
+Then Assert Text From Scarf.................................................failed
+
+StackTrace:
+java.lang.AssertionError: expected [Surf, Skate & Street Hats & Cap] but found [Surf, Skate & Street Hats & Caps]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at stepDefinitions.AmazonCapPageSteps.assert_Text_From_Scarf(AmazonCapPageSteps.java:62)
+	at ✽.Then Assert Text From Scarf(AmazonCapPage.feature:20)
+]]></failure>
 </testcase>
 </testsuite>

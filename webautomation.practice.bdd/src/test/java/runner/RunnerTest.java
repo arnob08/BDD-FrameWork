@@ -2,7 +2,12 @@ package runner;
 
 import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
+
 import org.junit.runner.RunWith;
+import org.testng.Reporter;
+import org.testng.annotations.AfterClass;
+
+import java.io.File;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(features = {"src/test/java/features"} ,
@@ -10,8 +15,10 @@ import org.junit.runner.RunWith;
         glue = "stepDefinitions",
         strict = false,
         monochrome = true,
-        tags = {"@zen"},  //@SmokeTest, @FunctionalTest, @DocString
+        tags = {"@arnob"},  //@SmokeTest, @FunctionalTest, @DocString
         dryRun =false)
+
+
 
 public class RunnerTest {
 

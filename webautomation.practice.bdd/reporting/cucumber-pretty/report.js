@@ -1,4 +1,4 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("AmazonBookPage.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("AmazonCapPage.feature");
 formatter.feature({
   "comments": [
     {
@@ -11,19 +11,19 @@ formatter.feature({
     }
   ],
   "line": 4,
-  "name": "Amazon Book",
+  "name": "A description",
   "description": "",
-  "id": "amazon-book",
+  "id": "a-description",
   "keyword": "Feature",
   "tags": [
     {
       "line": 3,
-      "name": "@zen"
+      "name": "@arnob"
     }
   ]
 });
 formatter.before({
-  "duration": 2630025689,
+  "duration": 2986669579,
   "status": "passed"
 });
 formatter.background({
@@ -35,54 +35,54 @@ formatter.background({
 });
 formatter.step({
   "line": 7,
-  "name": "User is already on Home Page",
+  "name": "User is alreedy in home page",
   "keyword": "Given "
 });
-formatter.step({
-  "line": 8,
-  "name": "user goes to Book page",
-  "keyword": "When "
-});
 formatter.match({
-  "location": "AmazonBookPageSteps.user_is_already_on_Home_Page()"
+  "location": "AmazonCapPageSteps.user_is_alreedy_in_home_page()"
 });
 formatter.result({
-  "duration": 69014101,
-  "status": "passed"
-});
-formatter.match({
-  "location": "AmazonBookPageSteps.user_goes_to_Book_page()"
-});
-formatter.result({
-  "duration": 1923494607,
+  "duration": 90083069,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 10,
-  "name": "Award Winner",
+  "line": 9,
+  "name": "Men\u0027s Hat",
   "description": "",
-  "id": "amazon-book;award-winner",
+  "id": "a-description;men\u0027s-hat",
   "type": "scenario",
   "keyword": "Scenario"
+});
+formatter.step({
+  "line": 10,
+  "name": "get text from Men\u0027s hat",
+  "keyword": "When "
 });
 formatter.step({
   "line": 11,
-  "name": "get text from Award Winner and assert",
+  "name": "Assert Text from Men\u0027s Hat",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "AmazonBookPageSteps.get_text_from_Award_Winner_and_assert()"
+  "location": "AmazonCapPageSteps.get_text_from_Men_s_hat()"
 });
 formatter.result({
-  "duration": 100331996,
+  "duration": 3123590026,
+  "status": "passed"
+});
+formatter.match({
+  "location": "AmazonCapPageSteps.assert_Text_from_Men_s_Hat()"
+});
+formatter.result({
+  "duration": 35120253,
   "status": "passed"
 });
 formatter.after({
-  "duration": 77404487,
+  "duration": 78402226,
   "status": "passed"
 });
 formatter.before({
-  "duration": 2311259414,
+  "duration": 2618890101,
   "status": "passed"
 });
 formatter.background({
@@ -94,113 +94,54 @@ formatter.background({
 });
 formatter.step({
   "line": 7,
-  "name": "User is already on Home Page",
+  "name": "User is alreedy in home page",
   "keyword": "Given "
 });
-formatter.step({
-  "line": 8,
-  "name": "user goes to Book page",
-  "keyword": "When "
-});
 formatter.match({
-  "location": "AmazonBookPageSteps.user_is_already_on_Home_Page()"
+  "location": "AmazonCapPageSteps.user_is_alreedy_in_home_page()"
 });
 formatter.result({
-  "duration": 544783,
-  "status": "passed"
-});
-formatter.match({
-  "location": "AmazonBookPageSteps.user_goes_to_Book_page()"
-});
-formatter.result({
-  "duration": 2275580122,
+  "duration": 751862,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 13,
-  "name": "Bargain Books",
-  "description": "",
-  "id": "amazon-book;bargain-books",
-  "type": "scenario",
-  "keyword": "Scenario"
-});
-formatter.step({
   "line": 14,
-  "name": "get text from Bargain Books and Assert",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "AmazonBookPageSteps.get_text_from_Bargain_Books_and_Assert()"
-});
-formatter.result({
-  "duration": 39621545,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 76117110,
-  "status": "passed"
-});
-formatter.before({
-  "duration": 2312977214,
-  "status": "passed"
-});
-formatter.background({
-  "line": 6,
-  "name": "",
+  "name": "Men\u0027s Beany",
   "description": "",
-  "type": "background",
-  "keyword": "Background"
+  "id": "a-description;men\u0027s-beany",
+  "type": "scenario",
+  "keyword": "Scenario"
 });
 formatter.step({
-  "line": 7,
-  "name": "User is already on Home Page",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 8,
-  "name": "user goes to Book page",
+  "line": 15,
+  "name": "get text from Men\u0027s Hat",
   "keyword": "When "
 });
-formatter.match({
-  "location": "AmazonBookPageSteps.user_is_already_on_Home_Page()"
-});
-formatter.result({
-  "duration": 488841,
-  "status": "passed"
-});
-formatter.match({
-  "location": "AmazonBookPageSteps.user_goes_to_Book_page()"
-});
-formatter.result({
-  "duration": 1706136981,
-  "status": "passed"
-});
-formatter.scenario({
+formatter.step({
   "line": 16,
-  "name": "Fall Reading",
-  "description": "",
-  "id": "amazon-book;fall-reading",
-  "type": "scenario",
-  "keyword": "Scenario"
-});
-formatter.step({
-  "line": 17,
-  "name": "get Text from Fall Reading and assert",
+  "name": "Assert Text from Men\u0027s Beany",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "AmazonBookPageSteps.get_Text_from_Fall_Reading_and_assert()"
+  "location": "AmazonCapPageSteps.get_text_from_Men_s_Hat()"
 });
 formatter.result({
-  "duration": 89942281,
+  "duration": 2861215211,
+  "status": "passed"
+});
+formatter.match({
+  "location": "AmazonCapPageSteps.assert_Text_from_Men_s_Beany()"
+});
+formatter.result({
+  "duration": 104015750,
   "status": "passed"
 });
 formatter.after({
-  "duration": 72538949,
+  "duration": 76042932,
   "status": "passed"
 });
 formatter.before({
-  "duration": 2142810976,
+  "duration": 2388944503,
   "status": "passed"
 });
 formatter.background({
@@ -212,286 +153,51 @@ formatter.background({
 });
 formatter.step({
   "line": 7,
-  "name": "User is already on Home Page",
+  "name": "User is alreedy in home page",
   "keyword": "Given "
 });
-formatter.step({
-  "line": 8,
-  "name": "user goes to Book page",
-  "keyword": "When "
-});
 formatter.match({
-  "location": "AmazonBookPageSteps.user_is_already_on_Home_Page()"
+  "location": "AmazonCapPageSteps.user_is_alreedy_in_home_page()"
 });
 formatter.result({
-  "duration": 442991,
-  "status": "passed"
-});
-formatter.match({
-  "location": "AmazonBookPageSteps.user_goes_to_Book_page()"
-});
-formatter.result({
-  "duration": 1665122543,
+  "duration": 448316,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 19,
-  "name": "Book Of the Month",
+  "line": 18,
+  "name": "Scarf",
   "description": "",
-  "id": "amazon-book;book-of-the-month",
+  "id": "a-description;scarf",
   "type": "scenario",
   "keyword": "Scenario"
+});
+formatter.step({
+  "line": 19,
+  "name": "ge text from Scarf",
+  "keyword": "When "
 });
 formatter.step({
   "line": 20,
-  "name": "get text from Book Of the month and Assert",
+  "name": "Assert Text From Scarf",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "AmazonBookPageSteps.get_text_from_Book_Of_the_month_and_Assert()"
+  "location": "AmazonCapPageSteps.ge_text_from_Scarf()"
 });
 formatter.result({
-  "duration": 60907207,
+  "duration": 2928020187,
   "status": "passed"
+});
+formatter.match({
+  "location": "AmazonCapPageSteps.assert_Text_From_Scarf()"
+});
+formatter.result({
+  "duration": 43758753,
+  "error_message": "java.lang.AssertionError: expected [Surf, Skate \u0026 Street Hats \u0026 Cap] but found [Surf, Skate \u0026 Street Hats \u0026 Caps]\n\tat org.testng.Assert.fail(Assert.java:96)\n\tat org.testng.Assert.failNotEquals(Assert.java:776)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:137)\n\tat org.testng.Assert.assertEquals(Assert.java:118)\n\tat org.testng.Assert.assertEquals(Assert.java:453)\n\tat org.testng.Assert.assertEquals(Assert.java:463)\n\tat stepDefinitions.AmazonCapPageSteps.assert_Text_From_Scarf(AmazonCapPageSteps.java:62)\n\tat ✽.Then Assert Text From Scarf(AmazonCapPage.feature:20)\n",
+  "status": "failed"
 });
 formatter.after({
-  "duration": 73136672,
-  "status": "passed"
-});
-formatter.before({
-  "duration": 2103666650,
-  "status": "passed"
-});
-formatter.background({
-  "line": 6,
-  "name": "",
-  "description": "",
-  "type": "background",
-  "keyword": "Background"
-});
-formatter.step({
-  "line": 7,
-  "name": "User is already on Home Page",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 8,
-  "name": "user goes to Book page",
-  "keyword": "When "
-});
-formatter.match({
-  "location": "AmazonBookPageSteps.user_is_already_on_Home_Page()"
-});
-formatter.result({
-  "duration": 558408,
-  "status": "passed"
-});
-formatter.match({
-  "location": "AmazonBookPageSteps.user_goes_to_Book_page()"
-});
-formatter.result({
-  "duration": 1730261048,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 22,
-  "name": "Book Of the Year",
-  "description": "",
-  "id": "amazon-book;book-of-the-year",
-  "type": "scenario",
-  "keyword": "Scenario"
-});
-formatter.step({
-  "line": 23,
-  "name": "get text from Book of the Year and Year",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "AmazonBookPageSteps.get_text_from_Book_of_the_Year_and_Year()"
-});
-formatter.result({
-  "duration": 40897467,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 71688905,
-  "status": "passed"
-});
-formatter.before({
-  "duration": 2274368162,
-  "status": "passed"
-});
-formatter.background({
-  "line": 6,
-  "name": "",
-  "description": "",
-  "type": "background",
-  "keyword": "Background"
-});
-formatter.step({
-  "line": 7,
-  "name": "User is already on Home Page",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 8,
-  "name": "user goes to Book page",
-  "keyword": "When "
-});
-formatter.match({
-  "location": "AmazonBookPageSteps.user_is_already_on_Home_Page()"
-});
-formatter.result({
-  "duration": 526041,
-  "status": "passed"
-});
-formatter.match({
-  "location": "AmazonBookPageSteps.user_goes_to_Book_page()"
-});
-formatter.result({
-  "duration": 2339504519,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 25,
-  "name": "Celebrity Pick",
-  "description": "",
-  "id": "amazon-book;celebrity-pick",
-  "type": "scenario",
-  "keyword": "Scenario"
-});
-formatter.step({
-  "line": 26,
-  "name": "get text from Celebrity Pick and Assert",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "AmazonBookPageSteps.get_text_from_Celebrity_Pick_and_Assert()"
-});
-formatter.result({
-  "duration": 90949754,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 72446961,
-  "status": "passed"
-});
-formatter.before({
-  "duration": 2332058189,
-  "status": "passed"
-});
-formatter.background({
-  "line": 6,
-  "name": "",
-  "description": "",
-  "type": "background",
-  "keyword": "Background"
-});
-formatter.step({
-  "line": 7,
-  "name": "User is already on Home Page",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 8,
-  "name": "user goes to Book page",
-  "keyword": "When "
-});
-formatter.match({
-  "location": "AmazonBookPageSteps.user_is_already_on_Home_Page()"
-});
-formatter.result({
-  "duration": 511786,
-  "status": "passed"
-});
-formatter.match({
-  "location": "AmazonBookPageSteps.user_goes_to_Book_page()"
-});
-formatter.result({
-  "duration": 1586760249,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 28,
-  "name": "Books in Spanish",
-  "description": "",
-  "id": "amazon-book;books-in-spanish",
-  "type": "scenario",
-  "keyword": "Scenario"
-});
-formatter.step({
-  "line": 29,
-  "name": "get text from Books in Spanish and Assert",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "AmazonBookPageSteps.get_text_from_Books_in_Spanish_and_Assert()"
-});
-formatter.result({
-  "duration": 93527414,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 73349717,
-  "status": "passed"
-});
-formatter.before({
-  "duration": 2303328125,
-  "status": "passed"
-});
-formatter.background({
-  "line": 6,
-  "name": "",
-  "description": "",
-  "type": "background",
-  "keyword": "Background"
-});
-formatter.step({
-  "line": 7,
-  "name": "User is already on Home Page",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 8,
-  "name": "user goes to Book page",
-  "keyword": "When "
-});
-formatter.match({
-  "location": "AmazonBookPageSteps.user_is_already_on_Home_Page()"
-});
-formatter.result({
-  "duration": 496318,
-  "status": "passed"
-});
-formatter.match({
-  "location": "AmazonBookPageSteps.user_goes_to_Book_page()"
-});
-formatter.result({
-  "duration": 1683198645,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 31,
-  "name": "Children\u0027s Book",
-  "description": "",
-  "id": "amazon-book;children\u0027s-book",
-  "type": "scenario",
-  "keyword": "Scenario"
-});
-formatter.step({
-  "line": 32,
-  "name": "get text from Children\u0027s Book",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "AmazonBookPageSteps.get_text_from_Children_s_Book()"
-});
-formatter.result({
-  "duration": 64803822,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 74081989,
+  "duration": 721311786,
   "status": "passed"
 });
 });
